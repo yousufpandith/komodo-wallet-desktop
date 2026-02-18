@@ -1,4 +1,4 @@
-// cheetahdex-wallet
+// ui-dex-wallet
 // Author(s): syl
 
 #include <string>

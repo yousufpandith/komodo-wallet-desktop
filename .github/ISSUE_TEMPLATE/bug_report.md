@@ -26,10 +26,10 @@ Please describe what you expected to happen.
 **Operating Environment(s):**
  - OS: [e.g. Windows/OSX/Linux. If Linux, include distro. ]
  - OS version: [e.g. 7/10/11, 10.13/10.15, 18.04/20.04 ]
- - Cheetahdex Wallet Desktop Version: [e.g. 0.8.2]
+ - Ui-dex Wallet Desktop Version: [e.g. 0.8.2]
  - Build branch: [e.g. master/dev] 
 
 
 **Additional context**
  - Add any related context about the problem here (e.g. screen resolution, mining activity on address)
- - Attach [log files](https://forum.komodoplatform.com/t/accessing-cheetahdex-wallet-desktop-log-files/540)
+ - Attach [log files](https://forum.komodoplatform.com/t/accessing-ui-dex-wallet-desktop-log-files/540)

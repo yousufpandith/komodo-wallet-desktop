@@ -1,16 +1,16 @@
 <p align="center">
-    <a href="https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop" alt="Cheetahdex Wallet">
-	<img width="420" alt="cheetahdex-wallet-logo_dark-theme" src="https://raw.githubusercontent.com/ShorelineCrypto/cheetahdex-wallet-desktop/cheetahdex/assets/logo/dex-logo.png">
+    <a href="https://github.com/ShorelineCrypto/ui-dex-wallet-desktop" alt="Ui-dex Wallet">
+	<img width="420" alt="ui-dex-wallet-logo_dark-theme" src="https://raw.githubusercontent.com/ShorelineCrypto/ui-dex-wallet-desktop/ui-dex/assets/logo/dex-logo.png">
     </a>
 </p>
 
 
-## What is Cheetahdex Wallet?
+## What is Ui-dex Wallet?
 
-Cheetahdex Wallet is a secure wallet and non-custodial decentralized exchange rolled into one application. Store your coins,
+Ui-dex Wallet is a secure wallet and non-custodial decentralized exchange rolled into one application. Store your coins,
 trade peer-to-peer with minimal fees and never give up control over your digital assets.
 
-Cheetahdex Wallet has been tested on the following platforms:
+Ui-dex Wallet has been tested on the following platforms:
 
 - Windows 10
 - Linux (Ubuntu 18.04+)
@@ -19,10 +19,10 @@ Cheetahdex Wallet has been tested on the following platforms:
 
 ## Get Started
 
-You can [download](https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop/releases) the pre-built <b>beta</b> binaries on
-our [GitHub release page](https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop/releases).
+You can [download](https://github.com/ShorelineCrypto/ui-dex-wallet-desktop/releases) the pre-built <b>beta</b> binaries on
+our [GitHub release page](https://github.com/ShorelineCrypto/ui-dex-wallet-desktop/releases).
 
-Build instructions can be found [here](https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop/tree/cheetahdex/docs)
+Build instructions can be found [here](https://github.com/ShorelineCrypto/ui-dex-wallet-desktop/tree/ui-dex/docs)
 
 Please join our [Discord Server](https://discord.com/invite/jZMyhKm) for support, discussions and general UI/UX
 feedback.
@@ -30,7 +30,7 @@ feedback.
 
 ## Useful links
 
-- :link: [Cheetahdex Wallet Website](https://cheetahdex.shorelinecrypto.com/)
+- :link: [Ui-dex Wallet Website](https://cheetahdex.shorelinecrypto.com/)
 - :speech_balloon: [ShorelineCrypto Discord](https://discord.com/invite/jZMyhKm)
 - :notebook_with_decorative_cover: [ShorelineCrypto Reddit](https://www.reddit.com/r/shorelinecrypto/)
 - :hammer_and_wrench: [ShorelineCrypto X](https://x.com/shorelinecrypto)
@@ -63,44 +63,44 @@ feedback.
 	<table>
 	  <tr>
 	    <td align="center">
-	        <a href="https://github.com/Milerius"><img src="https://avatars1.githubusercontent.com/u/21139416?s=400&u=12e0a99353ae95365801542b85e2fd69abd44a81&v=4" width="100px;" alt="Milerius"/><br /><sub><b>Milerius</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop/commits?author=Milerius" title="Lead Back-End Dev / Code">✍️💻</a>
+	        <a href="https://github.com/Milerius"><img src="https://avatars1.githubusercontent.com/u/21139416?s=400&u=12e0a99353ae95365801542b85e2fd69abd44a81&v=4" width="100px;" alt="Milerius"/><br /><sub><b>Milerius</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/ui-dex-wallet-desktop/commits?author=Milerius" title="Lead Back-End Dev / Code">✍️💻</a>
 	    </td>
 		<td align="center">
-		    <a href="https://github.com/SylEze"><img src="https://avatars1.githubusercontent.com/u/14373103?s=460&u=b303a2d2261008814800c2d7809efc6af685a460&v=4"width="100px;" alt="syl"/><br /><sub><b>syl</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop/commits?author=SylEze" title="Frontend and Back-End Dev / Code">✍️💻</a>
+		    <a href="https://github.com/SylEze"><img src="https://avatars1.githubusercontent.com/u/14373103?s=460&u=b303a2d2261008814800c2d7809efc6af685a460&v=4"width="100px;" alt="syl"/><br /><sub><b>syl</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/ui-dex-wallet-desktop/commits?author=SylEze" title="Frontend and Back-End Dev / Code">✍️💻</a>
 		</td>
 	    <td align="center">
-	        <a href="https://github.com/naezith"><img src="https://avatars2.githubusercontent.com/u/6732486?s=400&u=5d242e560be002ad4af597dd284eb3242ab28016&v=4" width="100px;" alt="naezith"/><br /><sub><b>naezith</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop/commits?author=naezith" title="Front-End Dev / Code">✍️💻</a>
+	        <a href="https://github.com/naezith"><img src="https://avatars2.githubusercontent.com/u/6732486?s=400&u=5d242e560be002ad4af597dd284eb3242ab28016&v=4" width="100px;" alt="naezith"/><br /><sub><b>naezith</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/ui-dex-wallet-desktop/commits?author=naezith" title="Front-End Dev / Code">✍️💻</a>
 	    </td>
 	    <td align="center">
-	        <a href="https://github.com/ssakone"><img src="https://avatars.githubusercontent.com/u/39985611?v=4" width="100px;" alt="ssakone"/><br /><sub><b>ssakone</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop/commits?author=ssakone" title="Front-End Dev / Code">✍️💻</a>
-	    </td>
-	  </tr>
-	  <tr>
-	    <td align="center">
-	        <a href="https://github.com/tonymorony"><img src="https://avatars3.githubusercontent.com/u/24797699?s=400&u=335984bcb93856f260ac6d139b18f0c596306e08&v=4" width="100px;" alt="Anton TonyL Lysakov"/><br /><sub><b>Anton "TonyL" Lysakov</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop/commits?author=tonymorony" title="Lead QA / CI">🛠💻</a>
-	    </td>
-	    <td align="center">
-	        <a href="https://github.com/ca333"><img src="https://avatars3.githubusercontent.com/u/10762374?s=60&v=4" width="100px;" alt="ca333"/><br /><sub><b>ca333</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop/commits?author=ca333" title="Chief Technology Officer">:penguin: :guardsman:</a>
-	    </td>
-	    <td align="center">
-	        <a href="https://github.com/smk762"><img src="https://i.imgur.com/gAD7BxX.jpg" width="100px;" alt="smk762"/><br /><sub><b>smk762</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop/commits?author=smk762" title="QA Engineer">🛠:wolf:</a>
-	    </td>
-	    <td align="center">
-	        <a href="https://github.com/cipig"><img src="https://avatars0.githubusercontent.com/u/32116761?s=60&v=4" width="100px;" alt="cipig"/><br /><sub><b>cipig</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop/commits?author=cipig" title="System Administrator">✍️💻</a>
+	        <a href="https://github.com/ssakone"><img src="https://avatars.githubusercontent.com/u/39985611?v=4" width="100px;" alt="ssakone"/><br /><sub><b>ssakone</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/ui-dex-wallet-desktop/commits?author=ssakone" title="Front-End Dev / Code">✍️💻</a>
 	    </td>
 	  </tr>
 	  <tr>
 	    <td align="center">
-	        <a href="https://github.com/SirSevenG"><img src="https://avatars1.githubusercontent.com/u/44422309?s=60&v=4" width="100px;" alt="SirSevenG"/><br /><sub><b>SirSevenG</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop/commits?author=SirSevenG" title="QA Engineer">🛠💻</a>
+	        <a href="https://github.com/tonymorony"><img src="https://avatars3.githubusercontent.com/u/24797699?s=400&u=335984bcb93856f260ac6d139b18f0c596306e08&v=4" width="100px;" alt="Anton TonyL Lysakov"/><br /><sub><b>Anton "TonyL" Lysakov</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/ui-dex-wallet-desktop/commits?author=tonymorony" title="Lead QA / CI">🛠💻</a>
 	    </td>
 	    <td align="center">
-	        <a href="https://github.com/dathbezumniy"><img src="https://avatars2.githubusercontent.com/u/11756768?s=60&v=4" width="100px;" alt="dathbezumniy"/><br /><sub><b>dathbezumniy</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop/commits?author=dathbezumniy" title="Junior QA Engineer">🛠💻</a>
+	        <a href="https://github.com/ca333"><img src="https://avatars3.githubusercontent.com/u/10762374?s=60&v=4" width="100px;" alt="ca333"/><br /><sub><b>ca333</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/ui-dex-wallet-desktop/commits?author=ca333" title="Chief Technology Officer">:penguin: :guardsman:</a>
 	    </td>
 	    <td align="center">
-	        <a href="https://github.com/BloodyNora"><img src="https://avatars2.githubusercontent.com/u/4005813?s=60&v=4" width="100px;" alt="BloodyNora"/><br /><sub><b>BloodyNora</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop/commits?author=BloodyNora" title="IT allrounder">🛠💻</a>
+	        <a href="https://github.com/smk762"><img src="https://i.imgur.com/gAD7BxX.jpg" width="100px;" alt="smk762"/><br /><sub><b>smk762</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/ui-dex-wallet-desktop/commits?author=smk762" title="QA Engineer">🛠:wolf:</a>
 	    </td>
 	    <td align="center">
-	        <a href="https://github.com/zatJUM"><img src="https://avatars3.githubusercontent.com/u/45312760?s=60&v=4" width="100px;" alt="zatJUM"/><br /><sub><b>zatJUM</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop/commits?author=zatJUM" title="Community Dev">:heart:💻</a>
+	        <a href="https://github.com/cipig"><img src="https://avatars0.githubusercontent.com/u/32116761?s=60&v=4" width="100px;" alt="cipig"/><br /><sub><b>cipig</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/ui-dex-wallet-desktop/commits?author=cipig" title="System Administrator">✍️💻</a>
+	    </td>
+	  </tr>
+	  <tr>
+	    <td align="center">
+	        <a href="https://github.com/SirSevenG"><img src="https://avatars1.githubusercontent.com/u/44422309?s=60&v=4" width="100px;" alt="SirSevenG"/><br /><sub><b>SirSevenG</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/ui-dex-wallet-desktop/commits?author=SirSevenG" title="QA Engineer">🛠💻</a>
+	    </td>
+	    <td align="center">
+	        <a href="https://github.com/dathbezumniy"><img src="https://avatars2.githubusercontent.com/u/11756768?s=60&v=4" width="100px;" alt="dathbezumniy"/><br /><sub><b>dathbezumniy</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/ui-dex-wallet-desktop/commits?author=dathbezumniy" title="Junior QA Engineer">🛠💻</a>
+	    </td>
+	    <td align="center">
+	        <a href="https://github.com/BloodyNora"><img src="https://avatars2.githubusercontent.com/u/4005813?s=60&v=4" width="100px;" alt="BloodyNora"/><br /><sub><b>BloodyNora</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/ui-dex-wallet-desktop/commits?author=BloodyNora" title="IT allrounder">🛠💻</a>
+	    </td>
+	    <td align="center">
+	        <a href="https://github.com/zatJUM"><img src="https://avatars3.githubusercontent.com/u/45312760?s=60&v=4" width="100px;" alt="zatJUM"/><br /><sub><b>zatJUM</b></sub></a><br /><a href="https://github.com/ShorelineCrypto/ui-dex-wallet-desktop/commits?author=zatJUM" title="Community Dev">:heart:💻</a>
 	    </td>
 	  </tr>
 	</table>
@@ -109,7 +109,7 @@ feedback.
 
 ## License
 
-For details please refer to our [license](https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop/blob/master/LICENSE).
+For details please refer to our [license](https://github.com/ShorelineCrypto/ui-dex-wallet-desktop/blob/master/LICENSE).
 
 This is experimental alpha software - use at your own risk!
 

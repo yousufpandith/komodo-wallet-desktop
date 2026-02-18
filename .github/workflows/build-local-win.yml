@@ -1,11 +1,11 @@
-name: cheetahdex-wallet-desktop CI
+name: ui-dex-wallet-desktop CI
 
 on:
   pull_request:
     types: [ opened, synchronize, reopened ]
   push:
     branches:
-      - cheetahdex
+      - ui-dex
   schedule:
     - cron: '0 0 * * 1'
   workflow_dispatch:
@@ -14,15 +14,15 @@ env:
   DEX_API: "mm2_cheetah"
   DEX_RPCPORT: 7862
   DEX_RPC: "http://127.0.0.1:7862"
-  DEX_PROJECT_NAME: "cheetahdex-wallet"
-  DEX_DISPLAY_NAME: "Cheetahdex Wallet"
+  DEX_PROJECT_NAME: "ui-dex-wallet"
+  DEX_DISPLAY_NAME: "Ui-dex Wallet"
   DEX_COMPANY: "ShorelineCrypto"
   DEX_VERSION: "0.9.0"
   DEX_WEBSITE: "https://cheetahdex.shorelinecrypto.com/"
   VCPKG_DEFAULT_BINARY_CACHE: ${{ github.workspace }}/b/vcpkg_cache
   VCPKG_BINARY_SOURCES: clear
-  RUNVCPKG_VCPKG_ROOT: ${{ github.workspace }}\cheetahdex-wallet-desktop\ci_tools_atomic_dex\vcpkg-repo
-  VCPKG_ROOT: ${{ github.workspace }}\cheetahdex-wallet-desktop\ci_tools_atomic_dex\vcpkg-repo
+  RUNVCPKG_VCPKG_ROOT: ${{ github.workspace }}\ui-dex-wallet-desktop\ci_tools_atomic_dex\vcpkg-repo
+  VCPKG_ROOT: ${{ github.workspace }}\ui-dex-wallet-desktop\ci_tools_atomic_dex\vcpkg-repo
 
 jobs:
 
@@ -97,7 +97,7 @@ jobs:
           vcpkgDirectory: '${{ github.workspace }}/ci_tools_atomic_dex/vcpkg-repo'
           vcpkgJsonGlob: 'vcpkg.json'
 
-      - name: Build Cheetahdex Wallet (Windows)
+      - name: Build Ui-dex Wallet (Windows)
         if: runner.os == 'Windows'
         shell: powershell
         run: |
@@ -132,7 +132,7 @@ jobs:
       - name: Running Tests (Windows)
         shell: powershell
         continue-on-error: true
-        if: runner.os == 'Windows' && 'ShorelineCrypto/cheetahdex-wallet-desktop' == github.repository
+        if: runner.os == 'Windows' && 'ShorelineCrypto/ui-dex-wallet-desktop' == github.repository
         run: |
           #echo "Running tests"
           $Env:REPORT_CI_TOKEN = "${{ secrets.REPORT_CI_TOKEN_SECRET }}"

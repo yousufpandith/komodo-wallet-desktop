@@ -1,4 +1,4 @@
-name: cheetahdex-wallet-desktop CD releases
+name: ui-dex-wallet-desktop CD releases
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
     - temporary_disabled
 
 env:
-  DEX_PROJECT_NAME: "cheetahdex-wallet"
-  DEX_DISPLAY_NAME: "Cheetahdex Wallet"
+  DEX_PROJECT_NAME: "ui-dex-wallet"
+  DEX_DISPLAY_NAME: "Ui-dex Wallet"
   DEX_COMPANY: "ShorelineCrypto"
   DEX_VERSION: "0.9.0"
   DEX_WEBSITE: "https://atomicdex.io/"
