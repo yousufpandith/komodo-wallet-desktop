@@ -2,7 +2,7 @@
 
 version       = "0.1.0"
 author        = "romanszterg"
-description   = "Ui-dex Wallet CI utilities"
+description   = "Uidd-Dex wallet CI utilities"
 license       = "MIT"
 srcDir        = "src"
 bin           = @["ci_tools_atomic_dex"]

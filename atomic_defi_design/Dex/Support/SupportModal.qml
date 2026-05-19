@@ -113,7 +113,7 @@ Qaterial.Dialog
                 FAQLine
                 {
                     title: qsTr("Where can I see the orderbook or market statistics online?")
-                    text: qsTr('You can view an online orderbook and market statistics at <a href="https://markets.atomicdex.io/">https://markets.atomicdex.io/</a>, or use the Ui-dex Wallet in your browser at <a href="https://app.komodoplatform.com">https://app.komodoplatform.com</a>!')
+                    text: qsTr('You can view an online orderbook and market statistics at <a href="https://markets.atomicdex.io/">https://markets.atomicdex.io/</a>, or use the Uidd-Dex wallet in your browser at <a href="https://app.komodoplatform.com">https://app.komodoplatform.com</a>!')
                 }
 
                 FAQLine
@@ -208,7 +208,7 @@ There is a toggle in settings where you can turn on/off the display of these tra
                 Layout.preferredHeight: column_layout.height
                 hoverEnabled: true
 
-                onClicked: Qt.openUrlExternally("https://github.com/ShorelineCrypto/ui-dex-wallet-desktop/pull/2388")
+                onClicked: Qt.openUrlExternally("https://github.com/KomodoPlatform/uidd-Dex-wallet-desktop/pull/2388")
 
                 ColumnLayout
                 {

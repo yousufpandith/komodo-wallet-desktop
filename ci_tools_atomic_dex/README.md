@@ -1,4 +1,4 @@
-# Ui-dex Wallet Pro alpha build instructions
+# Uidd-Dex wallet Pro alpha build instructions
 
 ## Prerequisites
 
@@ -140,7 +140,7 @@ mv packages_commandline.json packages_official.json
 cd -
 ```
 
-## Build Ui-dex Wallet Pro 
+## Build Uidd-Dex wallet Pro 
 
 Please clone with submodules initialization : `git clone --recurse-submodules --remote-submodules https://github.com/KomodoPlatform/atomicDEX-Pro.git`
 
@@ -176,7 +176,7 @@ nimble build
 ./ci_tools_atomic_dex build release
 ```
 
-## Bundle Ui-dex Wallet Pro
+## Bundle Uidd-Dex wallet Pro
 
 ### Windows
 
@@ -202,7 +202,7 @@ nimble build
 
 
 
-## Create Ui-dex Wallet Pro Installer
+## Create Uidd-Dex wallet Pro Installer
 
 ### Windows
 
@@ -229,7 +229,7 @@ chmod +x QtInstallerFramework-linux-x64.run
 
 e.g.: In `.bashrc` add: `export QT_IFW_PATH=~/Qt/QtIFW-3.2.2`
 
-- Build Ui-dex Wallet Pro `./ci_tools_atomic_dex build release`
+- Build Uidd-Dex wallet Pro `./ci_tools_atomic_dex build release`
 
 - Run `ci_tools_atomic_dex\create_installer_linux.sh` script, pass build type as argument to script
 

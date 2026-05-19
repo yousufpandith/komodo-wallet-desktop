@@ -1,5 +1,5 @@
 {
-  "name": "ui-dex-wallet-desktop",
+  "name": "uidd-dex-wallet-desktop",
   "version-string": "0.9.0",
   "dependencies": [
     "entt",

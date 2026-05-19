@@ -1,4 +1,4 @@
-// ui-dex-wallet
+// uidd-Dex-wallet
 // Author(s): syl
 
 #include <nlohmann/json.hpp>

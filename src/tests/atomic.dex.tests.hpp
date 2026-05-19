@@ -81,16 +81,16 @@ struct tests_context : public antara::gaming::world::app
             SPDLOG_INFO("Using default password from the application");
         }
 
-        if (not wallet_manager.get_wallets().contains("ui-dex-wallet_tests"))
+        if (not wallet_manager.get_wallets().contains("uidd-Dex-wallet_tests"))
         {
             wallet_manager.create(
-                test_password != nullptr ? test_password : "fakepasswordtemporary", test_seed != nullptr ? test_seed : "fake seed", "ui-dex-wallet_tests");
+                test_password != nullptr ? test_password : "fakepasswordtemporary", test_seed != nullptr ? test_seed : "fake seed", "uidd-Dex-wallet_tests");
         }
         else
         {
-            SPDLOG_INFO("ui-dex-wallet_tests already exists - skipping");
+            SPDLOG_INFO("uidd-Dex-wallet_tests already exists - skipping");
         }
-        wallet_manager.login(test_password != nullptr ? test_password : "fakepasswordtemporary", "ui-dex-wallet_tests");
+        wallet_manager.login(test_password != nullptr ? test_password : "fakepasswordtemporary", "uidd-Dex-wallet_tests");
 
         //! Waits for kdf to be initialized before running tests
         while (!kdf.is_kdf_running() && !m_test_context_ready) { std::this_thread::sleep_for(std::chrono::milliseconds(100)); }

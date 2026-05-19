@@ -10,8 +10,8 @@ namespace atomic_dex
     inline const std::vector<std::string> g_default_coins{
         g_primary_dex_coin,
         g_second_primary_dex_coin,
-        "CHTA",
-        "NENG"
+        "BTC-segwit",
+        "DGB-segwit"
     };
     inline const std::vector<std::string> g_faucet_coins{
         "DOC",
