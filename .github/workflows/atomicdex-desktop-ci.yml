@@ -11,9 +11,9 @@ on:
   workflow_dispatch:
 
 env:
-  DEX_API: "kdf_kwd"
-  DEX_RPCPORT: 7762
-  DEX_RPC: "http://127.0.0.1:7762"
+  DEX_API: "mm2_cheetah"
+  DEX_RPCPORT: 7862
+  DEX_RPC: "http://127.0.0.1:7862"
   DEX_PROJECT_NAME: "uidd-Dex-wallet"
   DEX_DISPLAY_NAME: "Uidd-Dex wallet"
   DEX_COMPANY: "KomodoPlatform"

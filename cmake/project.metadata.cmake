@@ -1,18 +1,18 @@
 # Default project values
-set(DEX_API "kdf_kwd")
-set(DEX_RPCPORT 7762)
-set(DEX_RPC "http://127.0.0.1:7762")
+set(DEX_API "mm2_cheetah")
+set(DEX_RPCPORT 7862)
+set(DEX_RPC "http://127.0.0.1:7862")
 set(DEX_PROJECT_NAME "uidd-Dex-wallet")
 set(DEX_DISPLAY_NAME "Uidd-Dex wallet")
 set(DEX_MAINTENANCE_TOOL_NAME "Uidd-Dex wallet Maintenance Tool")
-set(DEX_COMPANY "KomodoPlatform")
+set(DEX_COMPANY "Uidd-Dex")
 set(DEX_WEBSITE "https://atomicdex.io/")
-set(DEX_VERSION "0.8.2")
+set(DEX_VERSION "0.9.0")
 set(DEX_SUPPORT_PAGE "https://support.komodoplatform.com/support/home")
 set(DEX_DISCORD "https://komodoplatform.com/discord")
-set(DEX_TWITTER "https://twitter.com/AtomicDEX")
-set(DEX_PRIMARY_COIN "LTC-segwit")                                                  ## Main coin of the DEX, will be enabled by default and will be the default left ticker for trading
-set(DEX_SECOND_PRIMARY_COIN "KMD")                                                  ## Second main coin of the DEX, will be enabled by default and will be the default right ticker for trading
+set(DEX_TWITTER "https://twitter.com/UIDDorg")
+set(DEX_PRIMARY_COIN "ETH")                                                  ## Main coin of the DEX, will be enabled by default and will be the default left ticker for trading
+set(DEX_SECOND_PRIMARY_COIN "UIDD")                                                  ## Second main coin of the DEX, will be enabled by default and will be the default right ticker for trading
 set(DEX_REPOSITORY_OWNER ${DEX_COMPANY})
 set(DEX_REPOSITORY_NAME "uidd-Dex-wallet-desktop")
 set(DEX_CHECKSUM_API_URL "https://komodo.earth/static/checksum.json")
