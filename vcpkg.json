@@ -1,5 +1,5 @@
 {
-  "name": "cheetahdex-wallet-desktop",
+  "name": "uidex-wallet-desktop",
   "version-string": "0.9.0",
   "dependencies": [
     "entt",

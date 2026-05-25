@@ -1,4 +1,4 @@
-# Building Cheetahdex Wallet Desktop on Linux
+# Building Uidex Wallet Desktop on Linux
 
 _Note: These instructions may not be up to date. Please refer to the github actions workflows for more recent build requirements_
 
@@ -16,9 +16,9 @@ Output will be found in the `bundled` subfolder.
 - [CMake](https://cmake.org/install/) 3.18 minimum
 
 
-### Clone Cheetahdex Wallet Desktop repository (with submodules)
+### Clone Uidex Wallet Desktop repository (with submodules)
 
-`git clone --recurse-submodules https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop.git`
+`git clone --recurse-submodules https://github.com/UIDD/uidex-wallet-desktop.git`
 
 
 ### Install Qt
@@ -134,29 +134,29 @@ git clone https://github.com/KomodoPlatform/libwally-core.git
 Install vcpkg from within the `ci_tools_atomic_dex` folder:
 
 ```bash
-cd cheetahdex-wallet-desktop/ci_tools_atomic_dex/vcpkg-repo
+cd uidex-wallet-desktop/ci_tools_atomic_dex/vcpkg-repo
 ./bootstrap-vcpkg.sh
 ```
 
 
-### Build cheetahdex-wallet-desktop (portable)
+### Build uidex-wallet-desktop (portable)
 
-In your shell command prompt (Powershell/Zsh/Bash), from within the `root` folder (e.g. ~/cheetahdex-wallet-desktop), type:
+In your shell command prompt (Powershell/Zsh/Bash), from within the `root` folder (e.g. ~/uidex-wallet-desktop), type:
 
 ```bash
-cd cheetahdex-wallet-desktop\build              # create the 'build' folder if it doesn't exist
+cd uidex-wallet-desktop\build              # create the 'build' folder if it doesn't exist
 cmake -DCMAKE_BUILD_TYPE=Release ../    # add -GNinja if you want to use the ninja build system.
-cmake --build . --config Release --target cheetahdex-wallet
+cmake --build . --config Release --target uidex-wallet
 ```
 
 
-### Bundle cheetahdex-wallet-desktop (installer)
+### Bundle uidex-wallet-desktop (installer)
 
 
 ```
-cd cheetahdex-wallet-desktop\build              # create the 'build' folder if it doesn't exist
+cd uidex-wallet-desktop\build              # create the 'build' folder if it doesn't exist
 cmake -DCMAKE_BUILD_TYPE=Release -GNinja ../
-cmake --build . --config Release --target cheetahdex-wallet
+cmake --build . --config Release --target uidex-wallet
 ninja install
 ```
 
@@ -175,7 +175,7 @@ ninja install
 
 ### Clone AtomicDEX repository (with submodules)
 
-`git clone --recurse-submodules https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop.git`
+`git clone --recurse-submodules https://github.com/UIDD/uidex-wallet-desktop.git`
 
 
 ### Install Qt
@@ -234,21 +234,21 @@ sudo make -j2 install
 ### Bootstrap VCPKG modules
 
 ```bash
-cd cheetahdex-wallet-desktop\ci_tools_atomic_dex\vcpkg-repo
+cd uidex-wallet-desktop\ci_tools_atomic_dex\vcpkg-repo
 ./bootstrap-vcpkg.sh
 ```
 
-### Build cheetahdex-wallet-desktop (portable)
+### Build uidex-wallet-desktop (portable)
 
-In your shell command prompt (Powershell/Zsh/Bash), from within the `root` folder (e.g. ~/cheetahdex-wallet-desktop), type:
+In your shell command prompt (Powershell/Zsh/Bash), from within the `root` folder (e.g. ~/uidex-wallet-desktop), type:
 
 ```bash
-cd cheetahdex-wallet-desktop\build              # create the 'build' folder if it doesn't exist
+cd uidex-wallet-desktop\build              # create the 'build' folder if it doesn't exist
 cmake -DCMAKE_BUILD_TYPE=Release ../    # add -GNinja if you want to use the ninja build system.
-cmake --build . --config Release --target cheetahdex-wallet
+cmake --build . --config Release --target uidex-wallet
 ```
 
-### Bundle cheetahdex-wallet-desktop (installer)
+### Bundle uidex-wallet-desktop (installer)
 
 
 On MacOS some extra variables in the environment are required to be able to bundle and sign the app:
@@ -268,9 +268,9 @@ export APPLE_ID="satoshinakamoto@bitcoin.com"
 ```
 
 ```
-cd cheetahdex-wallet-desktop\build              # create the 'build' folder if it doesn't exist
+cd uidex-wallet-desktop\build              # create the 'build' folder if it doesn't exist
 cmake -DCMAKE_BUILD_TYPE=Release -GNinja ../
-cmake --build . --config Release --target cheetahdex-wallet
+cmake --build . --config Release --target uidex-wallet
 ninja install
 ```
 
@@ -287,7 +287,7 @@ ninja install
 
 ### Clone AtomicDEX repository (with submodules)
 
-`git clone --recurse-submodules https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop.git`
+`git clone --recurse-submodules https://github.com/UIDD/uidex-wallet-desktop.git`
 
 
 ### Install Qt
@@ -347,32 +347,32 @@ copy src\ccan\ccan\str\hex\hex.c src\ccan\ccan\str\hex\hex_.c
 copy src\ccan\ccan\base64\base64.c src\ccan\ccan\base64\base64_.c
 cl /utf-8 /DUSE_ECMULT_STATIC_PRECOMPUTATION /DECMULT_WINDOW_SIZE=15 /DWALLY_CORE_BUILD /DHAVE_CONFIG_H /DSECP256K1_BUILD /I$env:LIBWALLY_DIR\src\wrap_js\windows_config /I$env:LIBWALLY_DIR /I$env:LIBWALLY_DIR\src /I$env:LIBWALLY_DIR\include /I$env:LIBWALLY_DIR\src\ccan /I$env:LIBWALLY_DIR\src\ccan\base64 /I$env:LIBWALLY_DIR\src\secp256k1 /Zi /LD src/aes.c src/anti_exfil.c src/base58.c src/base64.c src/bech32.c src/bip32.c src/bip38.c src/bip39.c src/blech32.c src/ecdh.c src/elements.c src/hex.c src/hmac.c src/internal.c src/mnemonic.c src/pbkdf2.c src/pullpush.c src/psbt.c src/script.c src/scrypt.c src/sign.c src/symmetric.c src/transaction.c src/wif.c src/wordlist.c src/ccan/ccan/crypto/ripemd160/ripemd160.c src/ccan/ccan/crypto/sha256/sha256.c src/ccan/ccan/crypto/sha512/sha512.c src/ccan/ccan/base64/base64_.c src\ccan\ccan\str\hex\hex_.c src/secp256k1/src/secp256k1.c src/secp256k1/src/precomputed_ecmult_gen.c src/secp256k1/src/precomputed_ecmult.c /Fewally.dll
 
-# After cloning cheetahdex-wallet-desktop, copy the wally.dll file
-Copy-Item "$env:LIBWALLY_DIR\wally.dll" -Destination "cheetahdex-wallet-desktop\wally\wally.dll" -force
+# After cloning uidex-wallet-desktop, copy the wally.dll file
+Copy-Item "$env:LIBWALLY_DIR\wally.dll" -Destination "uidex-wallet-desktop\wally\wally.dll" -force
 ```
 
 ### Bootstrap VCPKG modules
 
 ```bash
-cd cheetahdex-wallet-desktop\ci_tools_atomic_dex\vcpkg-repo
+cd uidex-wallet-desktop\ci_tools_atomic_dex\vcpkg-repo
 .\bootstrap-vcpkg.bat
 ```
 
-### Build cheetahdex-wallet-desktop (portable)
+### Build uidex-wallet-desktop (portable)
 
-In your shell command prompt (Powershell/Zsh/Bash), from within the `root` folder (e.g. ~/cheetahdex-wallet-desktop), started as Administrator, type:
+In your shell command prompt (Powershell/Zsh/Bash), from within the `root` folder (e.g. ~/uidex-wallet-desktop), started as Administrator, type:
 
 ```bash
-cd cheetahdex-wallet-desktop\build              # create the 'build' folder if it doesn't exist
+cd uidex-wallet-desktop\build              # create the 'build' folder if it doesn't exist
 cmake -DCMAKE_BUILD_TYPE=Release ../ -GNinja
-cmake --build . --config Release --target cheetahdex-wallet
+cmake --build . --config Release --target uidex-wallet
 ```
 
-### Bundle cheetahdex-wallet-desktop (installer)
+### Bundle uidex-wallet-desktop (installer)
 
 ```
-cd cheetahdex-wallet-desktop\build              # create the 'build' folder if it doesn't exist
+cd uidex-wallet-desktop\build              # create the 'build' folder if it doesn't exist
 cmake -DCMAKE_BUILD_TYPE=Release -GNinja ../
-cmake --build . --config Release --target cheetahdex-wallet
+cmake --build . --config Release --target uidex-wallet
 ninja install
 ```

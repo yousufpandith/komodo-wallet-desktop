@@ -2,7 +2,7 @@
 
 version       = "0.1.0"
 author        = "romanszterg"
-description   = "Cheetahdex Wallet CI utilities"
+description   = "Uidex Wallet CI utilities"
 license       = "MIT"
 srcDir        = "src"
 bin           = @["ci_tools_atomic_dex"]

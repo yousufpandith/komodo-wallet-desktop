@@ -622,7 +622,7 @@ MultipageModal
             }
 
             // Add `?` icon here
-            // https://komodoplatform.com/en/docs/cheetahdex-wallet/guides/how-to-find-the-right-ibc-channel-for-transfers/
+            // https://komodoplatform.com/en/docs/uidex-wallet/guides/how-to-find-the-right-ibc-channel-for-transfers/
 
             // Custom IBC warning
             DexLabel

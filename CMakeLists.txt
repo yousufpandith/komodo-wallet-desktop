@@ -14,6 +14,21 @@ include(cfg_hash)
 project(${DEX_PROJECT_NAME} LANGUAGES CXX VERSION 0.9.0)
 message(STATUS "${PROJECT_NAME} is version ${PROJECT_VERSION}")
 
+##! Force CMake to use modern C++17 across the entire project (Fixes std::optional)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS ON)
+
+##! Disable Doctest's POSIX signal handling to bypass the SIGSTKSZ bug on modern Linux
+add_compile_definitions(DOCTEST_CONFIG_NO_POSIX_SIGNALS)
+
+##! Force CMake to use the newly compiled Linux binaries for Wally and Secp256k1
+if (UNIX)
+    set(unofficial-wally "/usr/local/lib/libwallycore.a" CACHE FILEPATH "Force wally path" FORCE)
+    set(unofficial-secp "/usr/local/lib/libsecp256k1.a" CACHE FILEPATH "Force secp path" FORCE)
+endif()
+
+
 include(cmake_default_options)
 include(ipo_prerequisites)
 
@@ -78,10 +93,10 @@ FetchContent_Declare(
 )
 
 FetchContent_Declare(jl777-coins
-        URL https://github.com/ShorelineCrypto/coins/archive/master.zip)
+        URL https://github.com/UIDD/coins/archive/master.zip)
 
 #FetchContent_Declare(adex-generics-coins
-#        URL https://github.com/ShorelineCrypto/cheetahdex-wallet-desktop/archive/main.zip)
+#        URL https://github.com/UIDD/uidex-wallet-desktop/archive/main.zip)
 
 FetchContent_MakeAvailable(kdf jl777-coins qmaterial)
 
@@ -110,6 +125,8 @@ configure_icon_osx(${CMAKE_CURRENT_SOURCE_DIR}/cmake/install/macos/dex-logo.icns
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
+
+include_directories("${CMAKE_SOURCE_DIR}/wally")
 
 add_subdirectory(src)
 

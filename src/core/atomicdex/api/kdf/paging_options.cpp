@@ -1,4 +1,4 @@
-// cheetahdex-wallet
+// uidex-wallet
 // Author(s): syl
 
 #include <nlohmann/json.hpp>

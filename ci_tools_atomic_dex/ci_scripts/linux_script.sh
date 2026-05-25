@@ -42,9 +42,8 @@ sudo apt-get update
 sudo apt-get install libc++abi-11-dev libc++-11-dev -y
 #export CXXFLAGS=-stdlib=libc++
 #export LDFLAGS=-stdlib=libc++
-export CXX=clang++-12
-export CC=clang-12
-
+export CXX=clang++-17
+export CC=clang-17
 # get right cmake version
 wget https://github.com/Kitware/CMake/releases/download/v3.19.0-rc3/cmake-3.19.0-rc3-Linux-x86_64.tar.gz
 tar xvf cmake-3.19.0-rc3-Linux-x86_64.tar.gz
@@ -54,7 +53,8 @@ sudo cp -r * /usr/local/
 cmake --version
 
 # get libwally
-git clone https://github.com/KomodoPlatform/libwally-core.git --recurse-submodules
+#git clone https://github.com/KomodoPlatform/libwally-core.git --recurse-submodules
+git clone -b v0.8.5 https://github.com/KomodoPlatform/libwally-core.git --recurse-submodules
 cd libwally-core
 ./tools/autogen.sh
 ./configure --disable-shared
