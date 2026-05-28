@@ -33,8 +33,8 @@ wget https://apt.llvm.org/llvm.sh
 chmod +x llvm.sh
 sudo ./llvm.sh 17
 # set clang version
-sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-12 777
-sudo update-alternatives --install /usr/bin/clang clang /usr/bin/clang-12 777
+sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/bin/clang++-14 777
+sudo update-alternatives --install /usr/bin/clang clang /usr/bin/clang-14 777
 # set gnu compilers version
 sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-9 777
 sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 777
@@ -42,8 +42,8 @@ sudo apt-get update
 sudo apt-get install libc++abi-11-dev libc++-11-dev -y
 #export CXXFLAGS=-stdlib=libc++
 #export LDFLAGS=-stdlib=libc++
-export CXX=clang++-17
-export CC=clang-17
+export CXX=clang++-14
+export CC=clang-14
 # Install FUSE 2 so the runner can execute AppImages during packaging
 sudo apt-get update
 sudo apt-get install -y libfuse2
