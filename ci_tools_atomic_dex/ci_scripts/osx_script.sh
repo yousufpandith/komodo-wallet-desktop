@@ -16,7 +16,8 @@ brew install autoconf \
 
 brew unlink python@3.12
 brew install llvm
-brew install cmake ninja
+brew install cmake
+brew install ninja
 brew link --overwrite python@3.12
 
 pip3 install yq
